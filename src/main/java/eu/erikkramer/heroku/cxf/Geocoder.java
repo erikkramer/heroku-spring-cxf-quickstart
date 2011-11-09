@@ -1,6 +1,6 @@
 package eu.erikkramer.heroku.cxf;
 
-//import com.crmwaypoint.gmaps.geocoding.GMapsGeocoder;
+// import com.crmwaypoint.gmaps.geocoding.GMapsGeocoder;
 
 
 
@@ -19,7 +19,7 @@ public class Geocoder {
 
 	public void setLatLong(String address, String city, String country) {
 
-		//String ca = address + ", " + city + ", " + country;
+		String ca = address + ", " + city + ", " + country;
 		//GMapsGeocoder gmg = new GMapsGeocoder();
 		
 		//this.latLong = gmg.getGMapsGeocoding(ca).toString();
