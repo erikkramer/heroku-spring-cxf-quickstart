@@ -45,7 +45,7 @@
             <version>${spring-version}</version>
         </dependency>
 	
-		<!-- LOGGING DEPENDENCIES - LOG4J -->
+		<!-- Log4j deps -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
@@ -57,7 +57,7 @@
 			<version>1.2.16</version>
 		</dependency>
 
-		<!-- JUNIT DEPENDENCY FOR TESTING -->
+		<!-- JUnit deps -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -65,19 +65,17 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- JETTY DEPENDENCIES FOR TESTING -->
+		<!-- Jetty deps -->
 		<dependency>
 			<groupId>org.eclipse.jetty.aggregate</groupId>
 			<artifactId>jetty-all-server</artifactId>
 			<version>${jetty.version}</version>
-			<!--  needs to be compile time as we bring our own embedded Jetty -->
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
 			<version>2.5</version>
-			<!--  needs to be compile time as we bring our own embedded Jetty -->
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>

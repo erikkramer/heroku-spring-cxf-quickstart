@@ -25,20 +25,4 @@
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
 
-<!--  
-	<filter>
-		<filter-name>wicket.heroku-wicket</filter-name>
-		<filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
-		<init-param>
-			<param-name>applicationClassName</param-name>
-			<param-value>eu.erikkramer.heroku.cxf.WicketApplication</param-value>
-		</init-param>
-	</filter>
-
-	<filter-mapping>
-		<filter-name>wicket.heroku-wicket</filter-name>
-		<url-pattern>/wicket/*</url-pattern>
-	</filter-mapping>
-	
--->	
 </web-app>
