@@ -1,4 +1,4 @@
-Quickstart for Heroki + CXF with Spring
+Quickstart for Heroki + Apache CXF with Spring
 
-<br/>
-More details will follow
+
+Check for more details: http://erikpl.us or twitter me at @erikkramer
